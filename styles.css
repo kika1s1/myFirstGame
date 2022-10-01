@@ -1,3 +1,6 @@
+* {
+  margin: 0;
+}
 .container {
   width: 70%;
   margin: auto;
@@ -41,23 +44,25 @@ img {
   width: 25%;
   text-align: left;
   position: absolute;
-  margin: -20% -10%;
+  margin: -15% -10%;
 }
 .how-to-play-text{
   color: white;
-  text-align: center;
+  margin-left: 10%;
   font-size: 3.4rem;
+
 
 
 }
 .how-to-play-steps{
+  padding-top: 3rem;
   color: white;
   margin-top: -10px;
-  font-family: Arial, sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 .play-button{
-  margin: 5%;
-  padding: 10px 8%;
+  margin: 5% 5% 0 5%;
+  padding: 1px 8%;
   border-radius: 25px;
   /* font-size: 2rem; */
   color: #4ECCA3;
