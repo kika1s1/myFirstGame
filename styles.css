@@ -37,6 +37,24 @@ img {
   text-align: center;
   
 }
+.how-to-play{
+  width: 25%;
+  text-align: left;
+  position: absolute;
+  margin: -20% -10%;
+}
+.how-to-play-text{
+  color: white;
+  text-align: center;
+  font-size: 3.4rem;
+
+
+}
+.how-to-play-steps{
+  color: white;
+  margin-top: -10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .play-button{
   margin: 5%;
   padding: 10px 8%;
@@ -61,3 +79,8 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 } 
+@media(max-width: 1300px){
+  .how-to-play{
+    visibility: hidden;
+  }
+}
